@@ -1,6 +1,6 @@
 {
   "name": "@franzgollhammer/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Franz Gollhammer's ESLint configuration",
   "keywords": [
     "eslint",
