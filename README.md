@@ -1,1 +1,0 @@
-# Franz Gollhammer ESLint Configuration
