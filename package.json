@@ -1,5 +1,5 @@
 {
-  "name": "@franzgollhammer/eslint-config-fg",
+  "name": "@franzgollhammer/eslint-config",
   "version": "1.0.0",
   "description": "Franz Gollhammer's ESLint configuration",
   "keywords": [
@@ -9,7 +9,17 @@
     "guide",
     "stylistic"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

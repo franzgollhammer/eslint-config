@@ -1,4 +1,3 @@
-/** @type {import('eslint').Linter.FlatConfig[]} */
 import stylistic from '@stylistic/eslint-plugin'
 
 export default [
