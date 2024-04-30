@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-fg",
+  "name": "@franzgollhammer/eslint-config-fg",
   "version": "1.0.0",
   "description": "Franz Gollhammer's ESLint configuration",
   "keywords": [
@@ -18,5 +18,14 @@
   "license": "MIT",
   "dependencies": {
     "@stylistic/eslint-plugin": "^1.7.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franzgollhammer/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franzgollhammer/eslint-config/issues"
+  },
+  "homepage": "https://github.com/franzgollhammer/eslint-config#readme"
 }
