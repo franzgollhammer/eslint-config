@@ -17,10 +17,11 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - name: Create PR or publish
+      - name: Create Pull Request or publish
         id: changesets
         uses: changesets/action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           publish: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
