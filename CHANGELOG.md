@@ -1,5 +1,11 @@
 # @franzgollhammer/eslint-config-standard
 
+## 0.0.3
+
+### Patch Changes
+
+- 500fa53: Improving CI/CD pipeline
+
 ## 0.0.2
 
 ### Patch Changes
