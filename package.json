@@ -1,7 +1,7 @@
 {
-  "name": "@franzgollhammer/eslint-config",
-  "version": "1.0.1",
-  "description": "Franz Gollhammer's ESLint configuration",
+  "name": "@franzgollhammer/eslint-config-standard",
+  "version": "0.0.1",
+  "description": "ESLint config standard for stylistic rules",
   "keywords": [
     "eslint",
     "config",
@@ -11,25 +11,21 @@
   ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "files": [
-    "dist"
-  ],
-  "exports": {
-    ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "type": "module",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "author": "Franz Gollhammer",
   "license": "MIT",
   "dependencies": {
     "@stylistic/eslint-plugin": "^1.7.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/franzgollhammer/eslint-config.git"
