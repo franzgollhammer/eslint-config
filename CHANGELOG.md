@@ -1,5 +1,11 @@
 # @franzgollhammer/eslint-config-standard
 
+## 0.0.4
+
+### Patch Changes
+
+- d5eed59: private false in package json
+
 ## 0.0.3
 
 ### Patch Changes
