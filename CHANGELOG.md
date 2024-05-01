@@ -1,5 +1,11 @@
 # @franzgollhammer/eslint-config-standard
 
+## 0.0.6
+
+### Patch Changes
+
+- 5f66a93: Fixing config export
+
 ## 0.0.5
 
 ### Patch Changes
