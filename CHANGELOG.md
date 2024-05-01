@@ -1,5 +1,11 @@
 # @franzgollhammer/eslint-config-standard
 
+## 0.0.5
+
+### Patch Changes
+
+- 2f9bcba: Set changeset config access public
+
 ## 0.0.4
 
 ### Patch Changes

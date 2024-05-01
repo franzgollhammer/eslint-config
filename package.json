@@ -1,6 +1,6 @@
 {
   "name": "@franzgollhammer/eslint-config-standard",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "ESLint config standard for stylistic rules",
   "private": false,
   "keywords": [
