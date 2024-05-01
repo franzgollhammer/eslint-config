@@ -1,1 +1,1 @@
-ESLint config standard for stylistic eslint
+ESLint config standard for stylistic rules

@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/franzgollhammer/eslint-config.git"
+    "url": "git+https://github.com/franzgollhammer/eslint-config-standard.git"
   },
   "bugs": {
-    "url": "https://github.com/franzgollhammer/eslint-config/issues"
+    "url": "https://github.com/franzgollhammer/eslint-config-standard/issues"
   },
-  "homepage": "https://github.com/franzgollhammer/eslint-config#readme"
+  "homepage": "https://github.com/franzgollhammer/eslint-config-standard#readme"
 }
