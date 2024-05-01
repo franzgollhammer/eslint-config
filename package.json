@@ -2,6 +2,7 @@
   "name": "@franzgollhammer/eslint-config-standard",
   "version": "0.0.2",
   "description": "ESLint config standard for stylistic rules",
+  "private": false,
   "keywords": [
     "eslint",
     "config",
