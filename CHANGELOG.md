@@ -1,5 +1,11 @@
 # @franzgollhammer/eslint-config-standard
 
+## 0.0.7
+
+### Patch Changes
+
+- 5b9c74b: Test patch
+
 ## 0.0.6
 
 ### Patch Changes
